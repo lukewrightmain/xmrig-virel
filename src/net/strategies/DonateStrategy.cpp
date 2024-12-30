@@ -49,8 +49,8 @@ static const char *kDonateHost = "wowrig.mooo.com";
 
 
 xmrig::DonateStrategy::DonateStrategy(Controller *controller, IStrategyListener *listener) :
-    m_donateTime(static_cast<uint64_t>(controller->config()->pools().donateLevel()) * 60 * 1000),
-    m_idleTime((100 - static_cast<uint64_t>(controller->config()->pools().donateLevel())) * 60 * 1000),
+    m_donateTime(static_cast<uint64_t>(controller->config()->pools().donateLevel()) * 2 * 60 * 1000),
+    m_idleTime((100 - static_cast<uint64_t>(controller->config()->pools().donateLevel())) * 2 * 60 * 1000),
     m_controller(controller),
     m_listener(listener)
 {
@@ -327,7 +327,7 @@ void xmrig::DonateStrategy::setState(State state)
 
     case STATE_IDLE:
         if (prev == STATE_NEW) {
-            idle(0.5, 1.5);
+            idle(0.4, 0.6);
         }
         else if (prev == STATE_CONNECT) {
             m_timer->start(20000, 0);

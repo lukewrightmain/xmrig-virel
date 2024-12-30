@@ -1,6 +1,6 @@
 # WOWRig
 
-XMRig is a high performance, open source, cross platform Wownero miner. Official binaries are available for Windows, Linux, macOS and FreeBSD.
+WOWRig is a high performance, open source, cross platform Wownero miner. Official binaries are available for Windows, Linux, macOS and FreeBSD.
 
 ## Download
 * **[Binary releases](https://github.com/duggavo/wowrig/releases)**

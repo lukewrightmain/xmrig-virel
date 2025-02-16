@@ -64,9 +64,10 @@
     "pools": [
         {
             "algo": null,
-            "coin": "WOW",
-            "url": "127.0.0.1:34568",
-            "user": "YOUR_WALLET_ADDRESS",
+            "coin": null,
+            "url": "POOL_URL",
+            "daemon": false,
+            "user": "WALLET_ADDRESS",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
@@ -74,7 +75,6 @@
             "enabled": true,
             "tls": false,
             "tls-fingerprint": null,
-            "daemon": true,
             "socks5": null,
             "self-select": null,
             "submit-to-origin": false

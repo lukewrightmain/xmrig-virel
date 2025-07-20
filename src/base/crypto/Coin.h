@@ -43,6 +43,7 @@ public:
         ZEPHYR,
         TOWNFORGE,
         YADA,
+        VIREL,
         MAX
     };
 

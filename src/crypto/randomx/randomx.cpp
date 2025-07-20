@@ -129,6 +129,15 @@ RandomX_ConfigurationYada::RandomX_ConfigurationYada()
 	ArgonIterations = 4;
 }
 
+RandomX_ConfigurationVirel::RandomX_ConfigurationVirel()
+{
+	ArgonSalt = "RandomVIREL\x03";
+	ArgonIterations = 1;
+	ProgramIterations = 1821;
+	ProgramCount = 4;
+	ScratchpadL3_Size = 1048576;
+}
+
 RandomX_ConfigurationScala::RandomX_ConfigurationScala()
 {
 	ArgonMemory       = 131072;
@@ -420,6 +429,7 @@ RandomX_ConfigurationSafex RandomX_SafexConfig;
 RandomX_ConfigurationKeva RandomX_KevaConfig;
 RandomX_ConfigurationScala RandomX_ScalaConfig;
 RandomX_ConfigurationYada RandomX_YadaConfig;
+RandomX_ConfigurationVirel RandomX_VirelConfig;
 
 alignas(64) RandomX_ConfigurationBase RandomX_CurrentConfig;
 

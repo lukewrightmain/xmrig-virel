@@ -82,6 +82,7 @@ public:
         RX_SFX          = 0x72151273,   // "rx/sfx"           RandomSFX (Safex Cash).
         RX_KEVA         = 0x7214116b,   // "rx/keva"          RandomKEVA (Keva).
         RX_YADA         = 0x72151279,   // "rx/yada"          RandomYada (YadaCoin).
+        RX_VRL          = 0x72141276,   // "rx/vrl"           RandomVirel (Virel Protocol)
         AR2_CHUKWA      = 0x61130000,   // "argon2/chukwa"    Argon2id (Chukwa).
         AR2_CHUKWA_V2   = 0x61140000,   // "argon2/chukwav2"  Argon2id (Chukwa v2).
         AR2_WRKZ        = 0x61120000,   // "argon2/wrkz"      Argon2id (WRKZ)
@@ -156,6 +157,7 @@ public:
     static const char *kRX_SFX;
     static const char *kRX_KEVA;
     static const char *kRX_YADA;
+    static const char *kRX_VRL;
 #   endif
 
 #   ifdef XMRIG_ALGO_ARGON2

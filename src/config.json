@@ -65,10 +65,10 @@
         {
             "algo": null,
             "coin": null,
-            "url": "POOL_URL",
+            "url": "de.expool.net:5900",
             "daemon": false,
-            "user": "WALLET_ADDRESS",
-            "pass": "x",
+            "user": "WALLET",
+            "pass": "WORKER_NAME",
             "rig-id": null,
             "nicehash": false,
             "keepalive": true,

@@ -1,0 +1,9 @@
+/data/data/com.termux/files/home/xmrig-virel/CMakeFiles/xmrig.dir
+/data/data/com.termux/files/home/xmrig-virel/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/xmrig-virel/CMakeFiles/rebuild_cache.dir
+/data/data/com.termux/files/home/xmrig-virel/src/3rdparty/argon2/CMakeFiles/argon2.dir
+/data/data/com.termux/files/home/xmrig-virel/src/3rdparty/argon2/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/xmrig-virel/src/3rdparty/argon2/CMakeFiles/rebuild_cache.dir
+/data/data/com.termux/files/home/xmrig-virel/src/crypto/ghostrider/CMakeFiles/ghostrider.dir
+/data/data/com.termux/files/home/xmrig-virel/src/crypto/ghostrider/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/xmrig-virel/src/crypto/ghostrider/CMakeFiles/rebuild_cache.dir

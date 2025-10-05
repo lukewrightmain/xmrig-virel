@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/data/data/com.termux/files/home/xmrig-virel/cmake_install.cmake",
+		"/data/data/com.termux/files/home/xmrig-virel/src/3rdparty/argon2/cmake_install.cmake",
+		"/data/data/com.termux/files/home/xmrig-virel/src/crypto/ghostrider/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
